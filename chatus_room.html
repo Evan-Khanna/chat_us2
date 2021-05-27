@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Room Page</title>
+    <style>
+    body{
+    background: linear-gradient(to right top,purple, magenta, pink, purple, magenta);
+    
+    }
+    h1,h2,h3{
+        color: white;font-family: 'Courier New', Courier, monospace;font-weight: bold;
+    }
+    h6{
+    font-weight: bold;
+    }
+
+    </style>
+</head>
+<body>
+    <button id="logout" onclick="logout()"  class="glyphicon glyphicon-log-out btn btn-primary">Logout</button>
+    <center>
+    <h1>Chat Us</h1>
+    <div class="container">
+        <h2>Join Room</h2>
+        <br>
+        <br>
+
+    <h3 style="display: inline;">Welcome</h3>
+    <h3 id="name" style="display: inline;"></h3>
+    <h6>#Addroom</h6>
+    <input type="text" class="form-control" id="room_name" placeholder="#Room Name">
+    </div>
+    <div class="container" style="background-color: white;"></div>
+</center>
+</body>
+<script src='chatus_room.js'></script>
+</html>
